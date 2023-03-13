@@ -1,0 +1,416 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* header */
+
+.logo-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.heade-logo {
+  padding: 50px 0px 50px 93px;
+}
+.nav {
+  display: flex;
+  padding: 80px 92px 68px 0px;
+}
+.nav-title a {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #000;
+  margin-left: 40px;
+  text-decoration: none;
+  color: #000;
+}
+.header-shedlife {
+  background: url(../img/header/shedlife_banner_image_144.png) no-repeat;
+  padding: 205px 0px;
+  background-size: 100% 100%;
+}
+.shedlife {
+  width: 845px;
+  margin: 0px auto;
+}
+.shedlife h1 {
+  font-family: "recoleta", sans-serif;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 400;
+  color: #fff;
+}
+.butun-header {
+  width: 257px;
+  height: 83px;
+  margin: 0px auto;
+  padding-top: 60px;
+}
+.start-here {
+  width: 257px;
+  height: 83px;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  background-color: rgba(18, 56, 36, 0);
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 70px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #f1f0ea;
+}
+.start-here:hover {
+  color: red;
+  text-shadow: 3px 3px 3px #fce802;
+  background-color: rgba(2, 173, 252, 0.2);
+}
+
+/* header */
+
+/* Our-Mission */
+
+.Our-Mission {
+  background-color: #5dada8;
+}
+.mission-bodi {
+  padding: 145px 0px 175px 125px;
+  display: flex;
+  justify-content: space-between;
+}
+.mission-text {
+  max-width: 570px;
+  margin-top: -8px;
+}
+.mision-text-h {
+  font-family: Recoleta;
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: 70px;
+}
+.mission-p-one {
+  font-family: Recoleta;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.mission-p-too {
+  font-family: Recoleta;
+  font-family: Inter;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.mission-img {
+  max-width: 580px;
+  max-height: 390px;
+}
+.mission-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Our-Mission */
+
+/* How it works */
+
+.How-it-works {
+  margin-top: -58px;
+  background-image: url(../img/How-it-works/how_it_works_bg_248.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 195px 0px 215px 0px;
+}
+.works-title {
+  text-align: center;
+  font-family: "recoleta", sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
+}
+.section-works-blok {
+  display: flex;
+  justify-content: center;
+}
+.works-blok {
+  margin: 140px 12.5px 0px 12.5px;
+  background-color: #5dada8;
+  max-width: 320px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.works-blok-img {
+  display: block;
+  padding: 90px 0px 40px 0px;
+  margin: 0px auto;
+}
+.works-blok-h4 {
+  padding-bottom: 20px;
+  font-weight: 600;
+  color: #dbedec;
+  text-align: center;
+  font-family: "inter", sans-serif;
+  font-size: 18px;
+}
+.works-blok-h4 h4 {
+  font-family: "inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.works-blok-text {
+  padding-bottom: 80px;
+}
+.works-blok-text p {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26px;
+  color: #dbedec;
+  text-align: center;
+  padding: 0px 10px;
+}
+/* How it works */
+
+/* our models */
+
+.our-models-tile h2 {
+  text-align: center;
+  padding: 65px 0px 105px 0px;
+  font-family: "recoleta", sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  color: #000;
+}
+.our-models-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.models-section {
+  max-width: 1190px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 100px;
+}
+.models-section-img {
+  flex-basis: 50%;
+}
+.models-section-img img {
+  width: 100%;
+  height: 100%;
+}
+.models-section-text {
+  padding: 80px 65px 0px 60px;
+  flex-basis: 50%;
+  background-color: #dfefee;
+}
+.models-section-text h3 {
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #000;
+}
+.models-section-text p {
+  padding-top: 37px;
+  font-size: 16px;
+  line-height: 28px;
+}
+.models-section-text h4 {
+  font-weight: 600;
+  padding-top: 47px;
+}
+.models-section-text ul {
+  padding-top: 27px;
+}
+.models-section-text ul li {
+  line-height: 32px;
+}
+.models-section .too {
+  background-color: #f5ebdf;
+}
+
+/* our models */
+
+/* Why-shed  */
+.Why-shed {
+  background-image: url(../img/Why-get-a-shed/why_get_a_shed_bg_205.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 190px 0px 140px 0px;
+}
+.Why-shed-body {
+  max-width: 1190px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.shed-body-text {
+  max-width: 480px;
+}
+.shed-body-text h2 {
+  font-family: "recoleta", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  color: #000;
+  margin: 145px 0px 70px 0px;
+  text-align: center;
+}
+.shed-body-text p {
+  font-weight: 500;
+  line-height: 30px;
+  color: #000000;
+}
+.shed-text {
+  padding-bottom: 45px;
+}
+.shed-body-img {
+  max-width: 585px;
+  max-height: 675px;
+}
+.shed-body-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Why-shed  */
+
+/* space */
+.space {
+  background-color: #5dada8;
+  margin-top: -60px;
+}
+.space-body {
+  max-width: 1195px;
+  margin: 0px auto;
+  padding: 150px 0px 0px 0px;
+}
+.space-body-text {
+  max-width: 510px;
+}
+.space-body-text h2 {
+  font-family: "recoleta", sans-serif;
+  font-size: 52px;
+  line-height: 70px;
+  font-weight: 400px;
+  color: #fff;
+  padding-bottom: 40px;
+}
+.space-body-text p {
+  font-family: "Recoleta", sans-serif;
+  font-size: 24px;
+  line-height: 70px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 75px;
+}
+.space-body-form {
+}
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.input-content p {
+  text-transform: capitalize;
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.input-content input {
+  width: 367px;
+  height: 52px;
+  border: 3px solid #cde6e5;
+  border-radius: 5px;
+  background-color: #5dada8;
+
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #fff;
+}
+.name {
+}
+.email {
+}
+.phone {
+}
+.form-message p {
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 30px;
+}
+.form-message textarea {
+  width: 100%;
+  height: 315px;
+  border: 3px solid #cde6e5;
+  border-radius: 5px;
+  background: #5dada8;
+}
+.form-message {
+  padding-bottom: 50px;
+}
+.button-flexs {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-bottom: 90px;
+}
+.form-button button {
+  width: 215px;
+  height: 70px;
+  border: 3px solid #cde6e5;
+  background: #5dada8;
+  font-weight: 600;
+  border-radius: 5px;
+  color: #cde6e5;
+}
+
+/* space */
+
+/* footer */
+
+.footer {
+  background-image: url(../img/footer/footer_bg_236.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: -55px;
+}
+.footer-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footrer-img {
+  padding: 170px 0px 90px 0px;
+}
+.footer-nav {
+  display: flex;
+  padding-bottom: 145px;
+}
+.footer-nav a {
+  font-family: "inter", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #254543;
+}
+.footer-a {
+  padding-left: 55px;
+}
+
+/* footer */
